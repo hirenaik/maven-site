@@ -81,7 +81,7 @@ maven.repo.remote=https://my.server.com/maven,http://www.ibiblio.org/maven
    For maven to use this repository, we should take the following steps:
 
    [[1]] Create a  store to hold the  server's certificate usings Sun's
-         {{{http://java.sun.com/j2se/1.4.2/docs/tooldocs/solaris/keytool.html} keytool}},
+         {{{https://docs.oracle.com/javase/6/docs/technotes/tools/solaris/keytool.html} keytool}},
 
    [[2]] Defines properties to be used by HttpClient for finding keys and
          certificate
